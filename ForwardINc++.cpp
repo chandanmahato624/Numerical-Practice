@@ -11,8 +11,6 @@ int main(){
         cin>>x[i];
         cout<<"y["<<i<<"]= ";
         cin>>y[i];
-
-        
     }
     for(int i=0; i<n; i++){
         d[i]=y[i];
@@ -31,4 +29,5 @@ int main(){
         result += ux * d[0];
     }
     cout<<" The result = "<<result;
+    return 0;
 }
