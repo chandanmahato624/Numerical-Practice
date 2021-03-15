@@ -19,5 +19,5 @@ int main(){
          x = (a+b)/2;
             s = (x*x*x)-x-1;
     }
-    cout<<x;
+    cout<<"The result is "<<x;
 }
