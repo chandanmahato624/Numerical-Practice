@@ -9,8 +9,7 @@ int main(){
     cin>>b;
     x = (a+b)/2;
     s = (x*x*x)-x-1;
-
-    for(int i=0; i<11; i++){
+    for(int i=0; i<20; i++){
         if(s>0){
             b=x;
         }else{
